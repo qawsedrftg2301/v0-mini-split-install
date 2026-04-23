@@ -10,9 +10,9 @@ export function Header() {
         </div>
         <Link 
           href="/energy-audit" 
-          className="text-xs bg-primary-foreground text-primary px-3 py-1.5 rounded font-medium hover:opacity-90"
+          className="text-sm bg-primary-foreground text-primary px-4 py-2 rounded font-medium hover:opacity-90"
         >
-          Energy Audit
+          Energy Audit Service
         </Link>
       </div>
     </header>
