@@ -10,6 +10,7 @@ export function HowItWorks() {
             <li>Lineset</li>
             <li>Stand</li>
             <li>Disconnect</li>
+            <li>Pipe cover</li>
             <li>You can buy on Amazon I can help with that.</li>
             <li>Electrical needs to be run from panel I can help with that.</li>
           </ul>
