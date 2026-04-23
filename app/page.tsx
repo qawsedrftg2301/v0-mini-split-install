@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import { Header } from "@/components/header"
 import { HowItWorks } from "@/components/how-it-works"
 import { WhyChooseUs } from "@/components/why-choose-us"
@@ -25,12 +24,6 @@ export default function Home() {
           />
         </div>
         <Contact />
-
-        <div className="text-center">
-          <Link href="/energy-audit" className="text-primary text-sm font-medium hover:underline">
-            Also offering: Building Energy Audit →
-          </Link>
-        </div>
       </main>
       <Footer />
     </div>
