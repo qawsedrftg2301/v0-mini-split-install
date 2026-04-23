@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Header } from "@/components/header"
 import { HowItWorks } from "@/components/how-it-works"
 import { WhyChooseUs } from "@/components/why-choose-us"
@@ -13,6 +14,15 @@ export default function Home() {
         <HowItWorks />
         <WhyChooseUs />
         <Pricing />
+        <div className="rounded-lg overflow-hidden shadow-sm">
+          <Image
+            src="/images/mini-split.jpg"
+            alt="Mini-split heat pump installation"
+            width={900}
+            height={500}
+            className="w-full h-auto object-cover"
+          />
+        </div>
         <Contact />
       </main>
       <Footer />
