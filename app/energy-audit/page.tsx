@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function EnergyAudit() {
@@ -48,6 +49,15 @@ export default function EnergyAudit() {
             <div className="bg-card p-3 rounded-lg shadow-sm text-center text-sm">
               Find rebate opportunities
             </div>
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-sm mt-3">
+            <Image
+              src="/images/thermography.jpg"
+              alt="Thermal imaging showing heat loss in a building"
+              width={900}
+              height={500}
+              className="w-full h-auto object-cover"
+            />
           </div>
         </section>
 
