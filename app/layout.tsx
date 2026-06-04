@@ -7,9 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Mini-Split Install | You Buy — I Install',
+  title: 'Mini-Split Install',
   description: 'Professional mini-split heat pump installation in New Brunswick. You supply the equipment, I provide expert installation starting at $500.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
