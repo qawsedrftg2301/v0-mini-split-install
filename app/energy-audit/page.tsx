@@ -3,9 +3,12 @@ import Link from "next/link"
 
 export default function EnergyAudit() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="bg-primary text-primary-foreground py-4 px-3 text-center">
-        <h1 className="text-xl font-bold m-0">Building Energy Audit</h1>
+    <div className="min-h-screen flex flex-col bg-[#f4f7fa]">
+      <header className="bg-[#0a4d7a] text-white py-4 px-3 text-center">
+        <Link href="/" className="text-white text-sm hover:opacity-80">
+          ← Back to Mini-Split Install
+        </Link>
+        <h1 className="text-xl font-bold m-0 mt-2">Building Energy Audit</h1>
         <p className="text-sm mt-1 opacity-90">Save energy, save money</p>
       </header>
 
