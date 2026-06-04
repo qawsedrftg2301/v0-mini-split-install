@@ -7,7 +7,7 @@ export function Header() {
       <p className="mt-1.5 mb-0 text-[0.85em]">You buy — I install</p>
       <nav className="mt-2">
         <Link href="/energy-audit" className="text-white underline text-[0.85em] hover:opacity-80">
-          Building Energy Audit →
+          Building Energy Audit Service →
         </Link>
       </nav>
     </header>
