@@ -20,8 +20,8 @@ export function HowItWorks() {
           <strong>I install</strong>
           <ul className="list-disc pl-[15px] mt-1 mb-0">
             <li>Install system</li>
-            <li>Startup</li>
             <li>Vacuum & test</li>
+            <li>Startup</li>
           </ul>
         </div>
       </div>
